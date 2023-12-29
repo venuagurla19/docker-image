@@ -13,4 +13,4 @@ RUN apt-get update && apt-get install -y python3 python3-pip
 ENV NAME World
 
 
-CMD ["pyhton" , "app.py"]
+CMD ["python3" , "app.py"]
